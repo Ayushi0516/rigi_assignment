@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&family=Tilt+Neon&display=swap');
+
+
+*{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: sans-serif;
+}
+#main_container{
+  position: absolute;
+  top: 0;
+   left: 0;
+   width: 100%;
+}
+
+#navbar {
+  
+  height: 80px;
+  width: 100%;
+   /* position: absolute;
+  top: 0;
+   left: 0; */
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+
+}
+#logo{
+    text-transform: capitalize;
+    color:blue;
+    margin-left: -80px;
+ 
+   
+ 
+    
+}
+#navbar_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-right: -100px;
+  
+}
+#container{
+  background-color:#1F51FF;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+   /* gap:30%;  */
+  /* padding: 10px; */
+  color: white;
+}
+#container_left{
+  margin-left: 34vh;
+  margin-top: 20vh;
+}
+#container_heading{
+  font-size: 52px;
+}
+#container_subheading{
+  font-size: 20px;
+   line-height: 30px;
+    margin-top: -30px;
+}
+#container_button{
+  /* width: 50%;
+  height: 7vh; */
+  background-color: white;
+  color:#1F51FF ;
+  border: none;
+  margin-top: 25px;
+  border-radius: 40px; 
+  padding: 16px 95px; 
+  font-size: 15px;
+  font-weight:600;
+}
+#container_image{
+  margin-right: 30vh;
+  margin-top: 20vh;
+}
+#second_container{
+  background-color: #e6e6e6;
+  /* background-color:rgb(141, 159, 177); */
+  /* background-color: rgb(240, 255, 255); */
+  text-align: center;
+  padding-top: 35px;
+}
+.second_forbes{
+  color: #1F51FF;
+  font-size: 40px;
+  margin-top: -10px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+.third_container{
+  margin-top: 80px;
+}
+.rounded_image{
+  border-radius: 50%; /* Makes the image rounded */
+  /* border: 18px solid white;
+  background: blue; */
+  padding: 3px;
+  border: 20px solid white;
+  background-color: skyblue;
+}
+.desc{
+  margin-top: 20px;
+  font-size: 16px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+.fa-brands {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  
+}
+.fa-facebook-f  {
+  background: #0073CF;
+  color: white;
+}
+.fa-instagram{
+  background:#0073CF;
+  color: white;
+}
+.fa-linkedin-in{
+  background:#0073CF;
+  color: white;
+}
+.fa-twitter{
+  background:#0073CF;
+  color: white;
+}
+.fa-youtube{
+  background: #0073CF;
+  color: white;
+}
+.third_subcontainer{
+  margin-top: 90px;
+}
+
+.sub_button{
+  background-color: white;
+  color:black ;
+  border: none;
+  margin-top: 25px;
+  margin-right: 35px;
+  border-radius: 40px; 
+  padding: 16px 60px; 
+  font-size: 18px;
+  font-weight:300;
+  border: 1px solid lightgray;
+  
+}
+.comm_button{
+  background-color: #0073CF;
+  color: white;
+}
+.fa-solid{
+  padding: 5px;
+  font-size: 8px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-check{
+  background: black;
+  color: white;
+}
+.fourth_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 100px;
+}
+.club_container{
+  text-align: start;
+  margin-top: -60px;
+}
+.blue_image{
+  background-color: #0073CF;
+  border-radius: 20px;
+}
+.club_container p {
+  font-size: 20px;
+}
+.club_container h1{
+  font-size: 40px;
+}
+.club_container button{
+  background-color: #0073CF;
+  color:white ;
+  border: none;
+  margin-top: 25px;
+  border-radius: 40px; 
+  padding: 16px 95px; 
+  font-size: 18px;
+  /* font-weight:600; */
+}
+.fifth_container{
+  padding-left: 150px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+.fifth_container img{
+  width: 100%;
+ 
+}
+.card{
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: white;
+  border-radius: 15px;
+  height: 400px;
+  width: 350px;
+  text-align: start;
+  /* padding-left: 5px; */
+}
+.card p,h3{
+  padding-left: 10px;
+}
+.course{
+  background-color: #0073CF;
+  color:white ;
+  border: none;
+ margin-top: 10px;
+ margin-left: 20px;
+  border-radius: 40px; 
+  padding: 20px 50px; 
+  font-size: 18px;
+}
